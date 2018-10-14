@@ -8,14 +8,16 @@
             small
               em &mdash;John Johnson
     cube
+    input-board
 </template>
 
 <script>
 import Cube from '@/components/Cube';
+import InputBoard from '@/components/InputBoard';
 
 export default {
   name: 'Home',
-  components: { Cube },
+  components: { Cube, InputBoard },
 };
 </script>
 
