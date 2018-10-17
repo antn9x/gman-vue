@@ -7,17 +7,23 @@
           footer
             small
               em &mdash;John Johnson
+    v-container(grid-list-md, text-xs-center)
+      v-layout(row, wrap)
+        v-flex(lg4)
+          call-list
+        v-flex(lg8)
+          input-board
     cube
-    input-board
 </template>
 
 <script>
 import Cube from '@/components/Cube';
 import InputBoard from '@/components/InputBoard';
+import CallList from '@/components/CallList';
 
 export default {
   name: 'Home',
-  components: { Cube, InputBoard },
+  components: { Cube, InputBoard, CallList },
 };
 </script>
 
