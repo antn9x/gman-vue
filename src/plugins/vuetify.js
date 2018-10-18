@@ -10,6 +10,7 @@ import {
   VGrid,
   VToolbar,
   transitions,
+  VCard,
 } from 'vuetify';
 import 'vuetify/src/stylus/app.styl';
 
@@ -20,6 +21,7 @@ Vue.use(Vuetify, {
     VFooter,
     VList,
     VBtn,
+    VCard,
     VIcon,
     VGrid,
     VToolbar,
