@@ -48,7 +48,7 @@ export default {
   transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
-  top: 10px;
+  top: -55px;
   z-index: 1000;
   transform: translateY(30px) rotateX(-30deg);
   -moz-transform: translateY(30px) rotateX(-30deg);

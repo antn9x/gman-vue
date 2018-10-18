@@ -9,9 +9,9 @@
               em &mdash;John Johnson
     v-container(grid-list-md, text-xs-center)
       v-layout(row, wrap)
-        v-flex(lg4)
-          call-list
         v-flex(lg8)
+          call-list
+        v-flex(lg4)
           input-board
     cube
 </template>
